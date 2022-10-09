@@ -12,6 +12,12 @@ module.exports = {
         extend: {
             fontFamily: {
                 sans: ['Nunito', ...defaultTheme.fontFamily.sans],
+                cinzel: ['Cinzel']
+            },
+            colors: {
+                gray: {
+                    1000: '#202124',
+                },
             },
         },
     },
