@@ -8,11 +8,11 @@
     @yield('headers')
     <title>@yield('title')</title>
 </head>
-<body class="bg-gray-1000 text-white flex flex-col justify-between h-screen">
+<body class="bg-gray-1000 text-white flex flex-col h-screen">
     
     <x-navbar/>
 
-    @yield('content')
+    <div class="flex items-center">@yield('content')</div>
 
     <x-footer/>
 </body>

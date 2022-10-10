@@ -1,3 +1,1 @@
-<div>
-    <!-- When there is no desire, all things are at peace. - Laozi -->
-</div>
+<footer {{-- class="w-full bg-red-900 h-2 rounded-t-lg --}}"></footer>
